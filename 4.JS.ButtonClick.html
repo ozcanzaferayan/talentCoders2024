@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> </head>
+  <body>
+    <h1 id="hello">Merhaba</h1>
+    <button onclick="tikla()">Tıkla</button>
+
+    <script>
+      var tiklamaSayisi = 0;
+
+      function tikla() {
+        tiklamaSayisi += 1;
+        var helloEl = document.getElementById("hello");
+        helloEl.innerText = tiklamaSayisi;
+      }
+    </script>
+  </body>
+</html>
